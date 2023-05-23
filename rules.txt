@@ -1,0 +1,30 @@
+The function has the following specifications:
+  
+> consumes a string which is the password to be scored
+    > returns an integer between 0 to 3 inclusive
+    > if the password has a length of fewer than 8 characters, the function always returns 0
+    > the returned score is the number of rules that a password is found to pass:
+        > has 8 or more characters
+        > no character is repeated more than 3 times in a row
+        > contains at least one number
+
+
+To execute the code using Command Prompt (CMD), follow these steps:
+
+1. Open Command Prompt:
+   - On Windows, press **Win + R**, type "cmd", and press **Enter**.
+   - On macOS, open the **Terminal** application.
+   - On Linux, open any terminal emulator application.
+
+2. Navigate to the directory where the Python script is saved:
+   - Use the `cd` command to change directories. For example, if the script is saved in the "Documents" folder, you can use the command `cd Documents` to navigate to that directory.
+
+3. Once you are in the correct directory, execute the Python script:
+   - Type `python` followed by the script name. For example, if the script is named "password_checker.py", the command will be `python password_checker.py`.
+   - Press **Enter** to run the command.
+
+4. The script will prompt you to enter a password. Type your desired password and press **Enter**.
+
+5. The script will evaluate the password and display the password strength score.
+
+Note: Make sure you have Python installed on your system and added to the system's PATH environment variable for the `python` command to be recognized.
